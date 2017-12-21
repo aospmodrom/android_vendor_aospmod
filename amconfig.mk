@@ -39,8 +39,8 @@ PRODUCT_COPY_FILES += \
     vendor/aospmod/extra/hosts:system/etc/hosts
 
 # LineageOS packages
-#PRODUCT_PACKAGES += \
-#    Eleven
+PRODUCT_PACKAGES += \
+    Eleven
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.aospmod.version=$(AM_VERSION) \
