@@ -6,8 +6,8 @@ AM_VERSION := OREO-R.01
 AOSP_TAG_ID := android-8.1.0_r2
 
 # Common overlay
-#PRODUCT_PACKAGE_OVERLAYS += \
-#    vendor/aospmod/overlay/
+PRODUCT_PACKAGE_OVERLAYS += \
+    vendor/aospmod/overlay/
 
 PRODUCT_PROPERTY_OVERRIDES += \
     keyguard.no_require_sim=true \
