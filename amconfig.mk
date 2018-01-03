@@ -2,8 +2,8 @@
 # AOSPMod versioning
 #
 
-AM_VERSION := OREO-R.01
-AOSP_TAG_ID := android-8.1.0_r2
+AM_VERSION := OREO-R.02
+AOSP_TAG_ID := android-8.1.0_r7
 
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += \
