@@ -38,9 +38,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/aospmod/extra/hosts:system/etc/hosts
 
-# LineageOS packages
+# Phonograph
+# https://github.com/kabouzeid/Phonograph
 PRODUCT_PACKAGES += \
-    Eleven
+    Phonograph
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.aospmod.version=$(AM_VERSION) \
