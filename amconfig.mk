@@ -38,10 +38,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/aospmod/extra/hosts:system/etc/hosts
 
-# Phonograph
-# https://github.com/kabouzeid/Phonograph
+# Eleven
+# https://github.com/LineageOS/android_packages_apps_Eleven
 PRODUCT_PACKAGES += \
-    Phonograph
+    Eleven
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.aospmod.version=$(AM_VERSION) \
