@@ -2,7 +2,7 @@
 # AOSPMod versioning
 #
 
-AM_VERSION := OREO-R.05
+AM_VERSION := OREO-R.06
 AOSP_TAG_ID := android-8.1.0_r22
 
 # Common overlay
