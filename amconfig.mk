@@ -3,7 +3,7 @@
 #
 
 AM_VERSION := OREO-R.07
-AOSP_TAG_ID := android-8.1.0_r29
+AOSP_TAG_ID := android-8.1.0_r33
 
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += \
